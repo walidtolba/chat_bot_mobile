@@ -1,6 +1,7 @@
 import 'package:chat_bot/pages/voice_page.dart';
 import 'package:chat_bot/widgets/logo_colored.dart';
 import 'package:chat_bot/widgets/messages/image_message_widget.dart';
+import 'package:chat_bot/widgets/messages/line_chart_message_widget.dart';
 import 'package:chat_bot/widgets/messages/normal_message_widget.dart';
 import 'package:chat_bot/widgets/messages/welcome_message_widget.dart';
 import 'package:flutter/material.dart';
@@ -60,7 +61,10 @@ class ChatPage extends StatelessWidget {
                               SizedBox(
                                 height: 30,
                               ),
-                              ImageMessageWidget(),
+                              LineChartMessageWidget(),
+                              SizedBox(
+                                height: 30,
+                              ),
                             ],
                           ),
                         ),

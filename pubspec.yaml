@@ -38,6 +38,8 @@ dependencies:
   google_fonts: ^6.2.1
   http: ^1.2.2
   fl_chart: ^0.69.0
+  speech_to_text: ^7.0.0
+  flutter_tts: ^4.0.2
 
 dev_dependencies:
   flutter_test:
